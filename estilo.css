@@ -21,22 +21,18 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    color: black;
-    background-image: 
-        url('img/coração-fotos.png'),  
+    color: white;
+    background-image:  
         url('img/ads.png'),  
         url('img/fundo.png');  
     background-color: black;
     background-size: 
-        60%, 
-        80%, 
-        cover; 
+        100% 100%, 
+        cover;
     background-position: 
-        center top, 
         center center, 
         center center; 
     background-repeat: 
-        no-repeat, 
         no-repeat, 
         no-repeat;
     left: 0;
@@ -61,6 +57,7 @@ body {
 h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: black;
 }
 
 

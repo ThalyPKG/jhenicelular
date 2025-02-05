@@ -1,0 +1,71 @@
+/* Reset de margens e melhor responsividade */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Ajustando tamanho e imagens para celular */
+#conteudo {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    color: white;
+    background-image: 
+        url(file:///C:/Users/jeffe/Desktop/code/coração%20fotos.png),  /* Imagem de coração */
+        url(file:///C:/Users/jeffe/Desktop/code/ads.png),  
+        url(file:///C:/Users/jeffe/Desktop/code/fundo.png);  
+    background-color: black;
+    background-size: 
+        contain, /* Coração ajustado */
+        100%, /* Ads */
+        cover; /* Fundo */
+    background-position: 
+        center, /* Coração */
+        center, /* Ads */
+        center; /* Fundo */
+    background-repeat: 
+        no-repeat, 
+        no-repeat, 
+        no-repeat;
+    left: 0;
+    top: 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Ajustando botões para melhor usabilidade */
+.btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    width: 120px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn:hover {
+    background: red;
+}

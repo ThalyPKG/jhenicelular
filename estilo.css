@@ -21,18 +21,18 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    color: white;
+    color: black;
     background-image: 
         url('img/coração-fotos.png'),  
         url('img/ads.png'),  
         url('img/fundo.png');  
     background-color: black;
     background-size: 
-        60%,
+        60%, 
         80%, 
         cover; 
     background-position: 
-        center top,
+        center top, 
         center center, 
         center center; 
     background-repeat: 
@@ -51,11 +51,13 @@ body {
 #topo {
     width: 100%;
     position: absolute;
-    top: 5%;
-    text-align: center;
+    top: 5vh;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Estilo do título */
+
 h2 {
     font-size: 24px;
     margin-bottom: 10px;

@@ -23,18 +23,18 @@ body {
     position: fixed;
     color: white;
     background-image: 
-        url('img/coração-fundo'), 
+        url('img/coração fotos.png'), 
         url('img/ads.png'),  
         url('img/fundo.png');  
     background-color: black;
     background-size: 
-        contain, 
-        100%,
+        50%, 
+        100%, 
         cover; 
     background-position: 
-        center, 
-        center, 
-        center; 
+        center center, 
+        center center,
+        center center; 
     background-repeat: 
         no-repeat, 
         no-repeat, 
@@ -44,13 +44,21 @@ body {
     padding: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
+
+#topo {
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    text-align: center;
+}
+
+
 h2 {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 

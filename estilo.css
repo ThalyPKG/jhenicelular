@@ -1,4 +1,4 @@
-/* Reset de margens e melhor responsividade */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,25 +16,25 @@ body {
     overflow: hidden;
 }
 
-/* Ajustando tamanho e imagens para celular */
+
 #conteudo {
     width: 100vw;
     height: 100vh;
     position: fixed;
     color: white;
     background-image: 
-        url(file:///C:/Users/jeffe/Desktop/code/coração%20fotos.png),  /* Imagem de coração */
-        url(file:///C:/Users/jeffe/Desktop/code/ads.png),  
-        url(file:///C:/Users/jeffe/Desktop/code/fundo.png);  
+        url('img/coração-fundo'), 
+        url('img/ads.png'),  
+        url('img/fundo.png');  
     background-color: black;
     background-size: 
-        contain, /* Coração ajustado */
-        100%, /* Ads */
-        cover; /* Fundo */
+        contain, 
+        100%,
+        cover; 
     background-position: 
-        center, /* Coração */
-        center, /* Ads */
-        center; /* Fundo */
+        center, 
+        center, 
+        center; 
     background-repeat: 
         no-repeat, 
         no-repeat, 
@@ -53,7 +53,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Ajustando botões para melhor usabilidade */
+
 .btn {
     background: black;
     color: white;
